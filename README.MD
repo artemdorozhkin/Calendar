@@ -27,7 +27,7 @@ Public Function NewCalendar(ByRef Form As Object, Optional ByVal Caption As Stri
 ```vb
 Private Sub UserForm_Initialize()
     Dim Calendar As Calendar
-    Set Calendar = NewCalendar(myForm, "Мой календарь", 12, "2023-06-30", 6, 20)
+    Set Calendar = NewCalendar(Me, "Мой календарь", 12, "2023-06-30", 6, 20)
 End Sub
 ```
 
